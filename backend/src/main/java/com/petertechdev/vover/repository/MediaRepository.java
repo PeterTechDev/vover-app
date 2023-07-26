@@ -1,4 +1,4 @@
-package com.petertechdev.vover.repositories;
+package com.petertechdev.vover.repository;
 
 import com.petertechdev.vover.model.Media;
 import org.springframework.data.mongodb.repository.MongoRepository;
