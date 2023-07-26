@@ -39,8 +39,6 @@ public class Media {
         NOT_WATCHED
     }
 
-    @Id
-    private String id;
     private String title;
     private String description;
     private MediaType mediaType;
@@ -49,6 +47,5 @@ public class Media {
     private Integer seasons;
     private Integer episodes;
     private Status status = Status.NOT_WATCHED; // Default value
-
 }
 
