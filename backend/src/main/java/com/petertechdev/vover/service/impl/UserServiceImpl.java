@@ -28,11 +28,9 @@ public class UserServiceImpl implements UserService {
     public List<User> getAllUsersByName(String name) {
         List<User> allUsers = userRepository.findAll();
 
-        List<User> usersFound = allUsers.stream()
+        return allUsers.stream()
                 .filter(user -> user.getName().toLowerCase().contains(name.toLowerCase()))
                 .collect(Collectors.toList());
-
-        return usersFound;
     }
 
     @Override
