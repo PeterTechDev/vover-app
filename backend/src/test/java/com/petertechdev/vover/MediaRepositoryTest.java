@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.data.mongo.DataMongoTest;
 import com.petertechdev.vover.model.Media;
-import com.petertechdev.vover.repositories.MediaRepository;
+import com.petertechdev.vover.repository.MediaRepository;
 
 import java.util.List;
 
